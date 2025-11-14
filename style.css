@@ -1,0 +1,91 @@
+.game1 {
+  border: solid 2px #000;
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 1px;
+  font-weight: bold;
+  display: block;
+}
+.game2 {
+  border: solid 2px #000;
+  width: 50%;
+  padding: 10px;
+  display: none;
+}
+.inputName,
+.inputButton {
+  font-weight: bold;
+  border: solid 2px black;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.inputButton {
+  background-color: rgb(98, 143, 97);
+  color: white;
+  width: 20%;
+}
+.inputName {
+  width: 60%;
+}
+.stats,
+.button,
+.fight,
+.thongBao {
+  font-weight: bold;
+  border: solid 2px black;
+  padding: 5px;
+  background-color: lightgray;
+  border-top: none;
+}
+
+.button,
+.stats {
+  display: flex;
+}
+.button1,
+.button2,
+.button3 {
+  padding: 5px;
+  flex: 1;
+  border: solid 2px black;
+}
+
+.box {
+  padding: 5px;
+  flex: 1;
+}
+
+.thongBao {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.fight {
+  display: none;
+  padding: 10px;
+  background-color: lightcoral;
+}
+
+.button2 {
+  background-color: rgb(189, 170, 135);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.button3 {
+  background-color: rgb(98, 143, 97);
+}
+.name {
+  background-color: rgb(26, 103, 115);
+  padding: 5px;
+  font-weight: bold;
+  border: solid 2px rgb(16, 58, 65);
+}
+
+button:hover {
+  background-color: rgb(125, 87, 172);
+  color: white;
+  font-weight: bold;
+}

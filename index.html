@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game">
+      <div class="game1">
+        <span>Nhập tên của bạn: </span>
+        <input type="text" id="inputName" class="inputName" />
+        <button id="inputButton" class="inputButton">Xác nhận</button>
+      </div>
+      <div class="game2">
+        <div class="name">Tên của bạn: <span class="ten">Khách</span></div>
+        <div class="stats">
+          <span class="box">Lv: <span class="lvText">1</span></span>
+          <span class="box">HP: <span class="hpText">100</span></span>
+          <span class="box">Gold: <span class="goldText">50</span></span>
+        </div>
+        <div class="button">
+          <button class="button1">Cửa hàng</button>
+          <button class="button2">Kho đồ</button>
+          <button class="button3">Chiến đấu</button>
+        </div>
+        <div class="fight">
+          <div>Tên: <span class="tenQuai"></span></div>
+          <div>HP: <span class="hpQuai"></span></div>
+          <div>Dame: <span class="dameQuai"></span></div>
+        </div>
+        <div class="thongBao">
+          <span><strong>Thông báo:</strong></span>
+          <span class="text">Hãy giết quái để chiến thắng!</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" async defer></script>
+  </body>
+</html>
