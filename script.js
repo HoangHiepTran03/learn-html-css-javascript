@@ -230,13 +230,13 @@ function dungKiem() {
 }
 
 function quaAi() {
-  //   soVang += thuong * lv
+  //   soVang += thuong * (lv-1)
   lv++
   if (lv === quaiVat.length + 1) {
     win()
   } else {
     quaiHT = { ...quaiVat[lv - 1] }
-    soVang += thuong * lv
+    soVang += thuong * (lv - 1)
     lvText.innerText = lv
     hpText.innerText = hpNhanVat
     goldText.innerText = soVang
